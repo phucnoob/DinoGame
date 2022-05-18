@@ -80,7 +80,7 @@
   - Lưu điểm cao cùng tên người chơi xuống file, tránh mất dữ liệu
   - Hiệu ứng chuyển tiếp ngày / đêm
   - Chỉnh âm lượng to nhỏ
-  - Chuyển nhạc nên theo danh sách sẵn
+  - Chuyển nhạc nền từ 1 file bất kì trong hệ thống
 
   ## Kĩ thuật sử dụng
   - Các kĩ thuật với SDL2
@@ -93,6 +93,8 @@
     - Kĩ thuật xử lí nhập văn bản từ bàn phím
     - Cách xử lí file ảnh và icon ( các file resource )
     - Cách sử dụng các hàm thời gian để làm animation độc lập với FPS
+    - Đa luồng với SDL2
+    - Dùng API filedialog
   - Các kĩ thuật lập trình 
     - Sinh số giả ngẫu nhiên theo tiêu chuẩn hiện đại của [C++11](https://en.cppreference.com/w/cpp/numeric/random)
     - Cách sử dụng const, con trỏ và tham chiếu( refenrence )
