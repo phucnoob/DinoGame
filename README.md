@@ -103,6 +103,6 @@
     - Sử dụng cmake làm hệ thống build 
   
   ## Kết luận
-  > Khi code xong con game này, em cảm thấy mình đã nắm chắc các kiến thức mà mình đã học, suy nghĩ nhằm vận dụng chúng một cách hợp li. SDL 2 chỉ là một thư viên low-level, nhưng khi có đủ thời gian và sự sáng tạo, em đã có thế tự tạo ra một phiên bản của những thứ em thấy trong các công nghệ hiện đại. Em rút ra răng suy cho cùng thì ngôn ngữ hay công nghệ cũng chỉ là công cụ, lập trình viên mới là người thực sự giải quyết vấn đề. Từ đó em thấy nên học chắc từ gốc, không nên tìm hiểu các công nghệ quá "magic"
+  > Khi code xong con game này, em cảm thấy mình đã nắm chắc các kiến thức mà mình đã học, suy nghĩ nhằm vận dụng chúng một cách hợp li. SDL 2 chỉ là một thư viên low-level, nhưng khi có đủ thời gian và sự sáng tạo, em đã có thế tự tạo ra một phiên bản của những thứ em thấy trong các công nghệ hiện đại. Em rút ra rằng suy cho cùng thì ngôn ngữ hay công nghệ cũng chỉ là công cụ, lập trình viên mới là người thực sự giải quyết vấn đề. Từ đó em thấy nên học chắc từ gốc, không nên tìm hiểu các công nghệ quá "magic"
 
   [Về đầu trang](#dinogame)
