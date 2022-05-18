@@ -2,11 +2,11 @@
 - Game Dino khi mất mạng của google chrome, build lại với thư viện [SDL 2](https://www.libsdl.org/)
 
 ## Mục lục
-  1. [Hướng dẫn cài đặt](##Hướng-dẫn-cài-đặt) 
-  2. [Mô tả chung](##Mô-tả-chung)
-  3. [Các chức năng đã cài đặt](##Chức-năng)
-  4. [Kĩ thuật sử dụng](##Kĩ-thuật)
-  5. [Kết luận](##Kết-luận)
+  1. [Hướng dẫn cài đặt](##-Hướng-dẫn-cài-đặt) 
+  2. [Mô tả chung](##-Mô-tả-chung)
+  3. [Các chức năng đã cài đặt](##-Chức-năng)
+  4. [Kĩ thuật sử dụng](##-Kĩ-thuật)
+  5. [Kết luận](##-Kết-luận)
 
 ---
 # Nội dung
