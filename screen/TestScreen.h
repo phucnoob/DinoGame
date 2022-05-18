@@ -25,7 +25,10 @@ namespace DinoSP {
         void render() override;
         void update() override;
 
+
         TestScreen();
+
+        static int pickFile(void *ptr);
     };
 
 } // DinoSP

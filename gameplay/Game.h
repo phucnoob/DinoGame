@@ -31,7 +31,6 @@ namespace DinoSP {
         // Things that need to update after render
         void lateUpdate();
 
-        void input();
 
         friend void g_quit(Game* game);
     };

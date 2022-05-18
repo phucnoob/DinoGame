@@ -21,7 +21,7 @@ namespace DinoSP {
         bool firstCase = true;
 
 
-        static constexpr float SPAWN_INTERVAL = 1;
+        static constexpr float SPAWN_INTERVAL = 1.5;
         static constexpr int MAX_CACTUS { 3 };
         static constexpr int MAX_PTERO { 1 };
 

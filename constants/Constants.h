@@ -60,6 +60,16 @@ namespace DinoSP {
                  string path = "assets/buttons/music.png"s;
                  SDL_Rect rect {0, 0, 32, 32 };
              } musicSetting;
+
+             struct {
+                 string path = "assets/buttons/change.png"s;
+                 SDL_Rect rect {0, 0, 72, 26};
+             } change;
+
+             struct {
+                 string path = "assets/buttons/exit_arrow.png";
+                 SDL_Rect rect {0, 0, 32, 32};
+             } exit;
          } buttons;
 
          struct {

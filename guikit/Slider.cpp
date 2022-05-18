@@ -28,7 +28,7 @@ namespace DinoSP {
     Slider::Slider(int width, int height, Vector2 pos) {
         setPos(pos);
         this->sliderBar = {pos.x, pos.y, width, height};
-        this->innerBar = {pos.x + 2, pos.y + 2, width / 2 - 4, height - 4};
+        this->innerBar = {pos.x + 2, pos.y + 2, width - 4, height - 4};
 
         maxValue = 100; // default
         value = 0;
@@ -78,7 +78,7 @@ namespace DinoSP {
         }
         Vector2 mousePos = input->getMousePos();
         if (Utils::mouseInRect(mousePos, this->sliderBar) && input->mouseLeftClick()) {
-            int val = ((mousePos.x - pos.x) * 1.0f / sliderBar.w) * maxValue;
+            int val = ((mousePos.x - pos.x) * 1.0f / sliderBar.w) * maxValue + 4;
             setValue(val);
             lostFocus();
         }
@@ -97,5 +97,9 @@ namespace DinoSP {
         if (_val <= 0) return;
 
         this->maxValue = _val;
+    }
+
+    int Slider::getValue() {
+        return value;
     }
 } // DinoSP

@@ -59,16 +59,14 @@ namespace DinoSP {
             render();
             lateUpdate();
         }
-    }
-
-    void Game::input() {
 
     }
 
     Game::Game() {
         init();
         screenManager = new ScreenManager(this);
-        screenManager->changeScreen(new TestScreen());
+        screenManager->changeScreen(new StartScreen(screenManager));
+        AudioManager::playMusic("assets/sounds/background.mp3");
     }
 
     void Game::quit() {

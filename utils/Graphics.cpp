@@ -82,7 +82,7 @@ namespace DinoSP {
         }
 
         // SDL mixxer
-        int mixFlags = MIX_INIT_MP3 | MIX_INIT_OGG;
+        int mixFlags = MIX_INIT_MP3 | MIX_INIT_OGG | MIX_INIT_FLAC;
         if (!(Mix_Init(mixFlags) & mixFlags)) {
             successInit = false;
             throw RuntimeError("Mixer can't be init "s + SDL_GetError());

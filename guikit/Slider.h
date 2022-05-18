@@ -40,6 +40,8 @@ namespace DinoSP {
         void setValue(int i);
 
         void setMaxValue(int _val);
+
+        int getValue();
     };
 
 } // DinoSP

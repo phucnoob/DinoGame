@@ -5,6 +5,7 @@
 #include "StartScreen.h"
 #include "utils/Graphics.h"
 #include "GameScreen.h"
+#include "OptionsScreen.h"
 
 void DinoSP::StartScreen::render() {
     Screen::render();
@@ -71,8 +72,8 @@ void DinoSP::StartScreen::processButton() {
     }
 
     if (option->isClick()) {
-        // TODO
-        // Option screen ( adjust sounds, change background )
+        SDL_StopTextInput();
+        manager->changeScreen(new OptionsScreen(manager));
     }
 }
 

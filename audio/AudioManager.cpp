@@ -62,5 +62,12 @@ namespace DinoSP {
                 Mix_VolumeChunk(sound.second, MIX_MAX_VOLUME);
             }
         }
+
+        void setVolume(int vol) {
+            Mix_VolumeMusic(vol);
+            for(auto sound: sounds) {
+                Mix_VolumeChunk(sound.second, vol);
+            }
+        }
     }
 } // DinoSP

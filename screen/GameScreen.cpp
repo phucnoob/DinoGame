@@ -45,8 +45,7 @@ namespace DinoSP {
                                           Constants::buttons.musicSetting.rect);
         this->musicBtn->setPos({pauseBtn->getPos().x + pauseBtn->getWidth() + 4, pauseBtn->getPos().y});
 
-        AudioManager::playMusic("assets/sounds/background.mp3");
-
+        this->inputManager = InputManager::Instance();
     }
 
     void GameScreen::render() {
@@ -77,14 +76,14 @@ namespace DinoSP {
 
     void GameScreen::update() {
 
-        // dino died = no update screen
+         // dino died = no update screen
         if (dinoDied)
         {
             if (respawnTime > 0) {
                 respawnTime -= timePassed;
                 return;
             }
-            if (InputManager::Instance()->keyPressed(SDL_SCANCODE_SPACE)) {
+            if (inputManager->keyPressed(SDL_SCANCODE_SPACE)) {
                 resetGame();
             }
             return;
@@ -94,11 +93,11 @@ namespace DinoSP {
         if (paused)
             return;
         Screen::update();
+        dino->update();
         score->update(timePassed);
         road->move();
         enemyManager->moveEnemies(road->vel);
         cloud->update();
-        dino->update();
         enemyManager->update(timePassed);
 
         handleColison();

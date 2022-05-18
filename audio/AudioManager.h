@@ -31,6 +31,8 @@ namespace DinoSP {
         void resumeMusic();
         void mute();
         void unMute();
+
+        void setVolume(int vol);
     };
 
 } // DinoSP

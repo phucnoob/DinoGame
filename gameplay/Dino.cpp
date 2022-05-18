@@ -9,7 +9,6 @@
 namespace DinoSP {
     void Dino::handleInput() {
 
-
         if (InputManager::Instance()->keyPressed(SDL_SCANCODE_SPACE)) {
             if (jumping) // if the dino is already jump, do nothing
                 return;
@@ -44,7 +43,6 @@ namespace DinoSP {
             // no jump when duckTxt
             return;
         }
-
 
         if (jumping) {
             pos.y -= vel.y;
@@ -100,6 +98,7 @@ namespace DinoSP {
 
     void Dino::setPos(Vector2 _pos) {
         pos = _pos;
+        updateHitbox();
     }
 
     Dino::Dino(string path, SDL_Rect clipRect, uint64_t frameCount, uint64_t duration)

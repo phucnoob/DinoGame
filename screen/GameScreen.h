@@ -25,6 +25,7 @@ namespace DinoSP {
         Score* score;
         Cloud* cloud;
         EnemyManager* enemyManager;
+        InputManager* inputManager;
         Dino* dino;
 
         ToogleButton* pauseBtn;

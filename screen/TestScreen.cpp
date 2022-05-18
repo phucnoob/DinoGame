@@ -4,8 +4,10 @@
 
 #include "TestScreen.h"
 #include "guikit/Texture.h"
-#include "SDL2_gfxPrimitives.h"
 #include "guikit/BaseButton.h"
+#include "utils/tinyfiledialogs.h"
+
+#include <thread>
 
 namespace DinoSP {
     TestScreen::TestScreen() : Screen() {
@@ -19,6 +21,9 @@ namespace DinoSP {
         text = new Texture("/home/laplace/Downloads/wings.png");
 
         siler = new Slider(200, 24, {100, 100});
+
+        SDL_CreateThread(pickFile, "test", (void*) NULL);
+
     }
 
     void TestScreen::render() {
@@ -31,5 +36,21 @@ namespace DinoSP {
 
     void TestScreen::update() {
 
+    }
+
+    int TestScreen::pickFile(void* ptr) {
+        char const * lFilterPatterns[2] = { "*.mp3", "*.*" };
+        char const * selection = tinyfd_openFileDialog( // there is also a wchar_t version
+                "Select file", // title
+                "./", // optional initial directory
+                2, // number of filter patterns
+                lFilterPatterns, // char const * lFilterPatterns[2] = { "*.txt", "*.jpg" };
+                NULL, // optional filter description
+                0 // forbid multiple selections
+        );
+        if (selection == NULL) return 1;
+        AudioManager::playMusic(string(selection));
+
+        return 0;
     }
 } // DinoSP
