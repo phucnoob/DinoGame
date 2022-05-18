@@ -1,6 +1,12 @@
 # DinoGame
 - Game Dino khi mất mạng của google chrome, build lại với thư viện [SDL 2](https://www.libsdl.org/)
 
+<br>
+<p align="center">
+  <img src="https://github.com/phucnoob/DinoGame/blob/master/demo.gif" />
+</p>
+<br>
+
 ## Mục lục
   1. [Hướng dẫn cài đặt](#hướng-dẫn-cài-đặt) 
   2. [Mô tả chung](#mô-tả-chung)
