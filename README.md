@@ -4,7 +4,7 @@
 ## Mục lục
   1. [Hướng dẫn cài đặt](#hướng-dẫn-cài-đặt) 
   2. [Mô tả chung](#mô-tả-chung)
-  3. [Các chức năng đã cài đặt](#chức-năng)
+  3. [Chức năng đã cài đặt](#chức-năng-đã-cài-đặt)
   4. [Kĩ thuật sử dụng](#kĩ-thuật-sử-dụng)
   5. [Kết luận](#kết-luận)
 
@@ -87,6 +87,7 @@
   - Các kĩ thuật lập trình 
     - Sinh số giả ngẫu nhiên theo tiêu chuẩn hiện đại của [C++11](https://en.cppreference.com/w/cpp/numeric/random)
     - Cách sử dụng const, con trỏ và tham chiếu( refenrence )
+    - Cách cấp phát động và quản lí bộ nhớ
     - Log và report lỗi
     - Xử lí ngoại lệ ( cơ bản )
     - Các thư viện chuẩn của c++ stack, set, vector, list ...
@@ -96,7 +97,10 @@
     - Kĩ thuật đệ quy
     ---
     - Các tính chất của OOP ( đóng gói, kế thừa, trừu tượng, đa hình )
+    - Cách viết wrapper class
     - Design partern [Singleton](https://en.wikipedia.org/wiki/Singleton_pattern)
     - Cách chia file và quản lí file cpp, file header
     - Sử dụng cmake làm hệ thống build 
   
+  ## Kết luận
+    - Khi code xong con game này, em cảm thấy mình đã nắm chắc các kiến thức mà mình đã học, suy nghĩ nhằm vận dụng chúng một cách hợp li. SDL 2 chỉ là một thư viên low-level, nhưng khi có đủ thời gian và sự sáng tạo, em đã có thế tự tạo ra một phiên bản của những thứ em thấy trong các công nghệ hiện đại. Em rút ra răng suy cho cùng thì ngôn ngữ hay công nghệ cũng chỉ là công cụ, lập trình viên mới là người thực sự giải quyết vấn đề. Từ đó em thấy nên học chắc từ gốc, không nên tìm hiểu các công nghệ quá "magic"
