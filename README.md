@@ -7,6 +7,7 @@
   3. [Chức năng đã cài đặt](#chức-năng-đã-cài-đặt)
   4. [Kĩ thuật sử dụng](#kĩ-thuật-sử-dụng)
   5. [Kết luận](#kết-luận)
+  6. [Link Demo](https://youtu.be/hrEMuS6v1-4)
 
 ---
 # Nội dung
@@ -65,13 +66,15 @@
   Game sử dụng nhưng ý tưởng của Chrome Dino, Khủng long chạy và né tránh các cây xương rồng, và thằn lằn bay sử dụng các phím [SPACE] và [DOWN]
   Cơ cấu trò chơi là vô tận, tốc độ di chuyển của cây xương rồng cũng như mật độ tăng dần, có chế độ chuyển ngày/ đêm
   ## Chức năng đã cài đặt
+  > Demo 
+  > https://youtu.be/hrEMuS6v1-4
   - Màn hình chính của game với khủng long chạy và tránh các chướng ngại vật
   - Bật, tắt âm thanh
   - Tạm dừng trò chơi 
   - Lưu điểm cao cùng tên người chơi xuống file, tránh mất dữ liệu
   - Hiệu ứng chuyển tiếp ngày / đêm
   - Chỉnh âm lượng to nhỏ
-  - CHuyển nhạc nên theo danh sách sẵn
+  - Chuyển nhạc nên theo danh sách sẵn
 
   ## Kĩ thuật sử dụng
   - Các kĩ thuật với SDL2
