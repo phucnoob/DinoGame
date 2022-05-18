@@ -76,5 +76,27 @@
   ## Kĩ thuật sử dụng
   - Các kĩ thuật với SDL2
     - Sử dụng thư viện extension để load ảnh định dạng PNG/JPG
-    - Xử lí sự kiện 
+    - Xử lí sự kiện chuột, bàn phím
+    - Sử dụng SDL_RENDERER_PRESENTVSYNC để đồng bộ fps với màn hình
+    - Kĩ thuật render chữ lên màn hình với SDL_ttf
+    - Xử lí va chạm
+    - Clip rendering ( render 1 phần ảnh )
+    - Kĩ thuật xử lí nhập văn bản từ bàn phím
+    - Cách xử lí file ảnh và icon ( các file resource )
+    - Cách sử dụng các hàm thời gian để làm animation độc lập với FPS
+  - Các kĩ thuật lập trình 
+    - Sinh số giả ngẫu nhiên theo tiêu chuẩn hiện đại của [C++11](https://en.cppreference.com/w/cpp/numeric/random)
+    - Cách sử dụng const, con trỏ và tham chiếu( refenrence )
+    - Log và report lỗi
+    - Xử lí ngoại lệ ( cơ bản )
+    - Các thư viện chuẩn của c++ stack, set, vector, list ...
+    - C++ lambda
+    - namespace, class, enum, static
+    - C++17 filesystem
+    - Kĩ thuật đệ quy
+    ---
+    - Các tính chất của OOP ( đóng gói, kế thừa, trừu tượng, đa hình )
+    - Design partern [Singleton](https://en.wikipedia.org/wiki/Singleton_pattern)
+    - Cách chia file và quản lí file cpp, file header
+    - Sử dụng cmake làm hệ thống build 
   
