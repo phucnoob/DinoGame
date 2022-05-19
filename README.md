@@ -69,7 +69,7 @@
   ./Dino
   ```
   ## Mô tả chung
-  Game sử dụng nhưng ý tưởng của Chrome Dino, Khủng long chạy và né tránh các cây xương rồng, và thằn lằn bay sử dụng các phím [SPACE] và [DOWN]
+  Game sử dụng những ý tưởng của Chrome Dino, Khủng long chạy và né tránh các cây xương rồng, và thằn lằn bay sử dụng các phím [SPACE] và [DOWN]
   Cơ cấu trò chơi là vô tận, tốc độ di chuyển của cây xương rồng cũng như mật độ tăng dần, có chế độ chuyển ngày/ đêm
   ## Chức năng đã cài đặt
   > Demo 
